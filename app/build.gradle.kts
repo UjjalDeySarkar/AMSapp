@@ -71,4 +71,13 @@ dependencies {
 
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
+    // Card View
+    implementation("androidx.cardview:cardview:1.0.0")
+    // Material Design
+    implementation("com.google.android.material:material:1.9.0")
+    // Animations
+    implementation("androidx.dynamicanimation:dynamicanimation:1.0.0")
+
+    implementation("androidx.activity:activity-ktx:1.6.1")
+
 }
