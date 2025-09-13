@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
                 setBeepEnabled(true)
                 setBarcodeImageEnabled(true)
                 setOrientationLocked(true)
-                setCameraId(1)
+                setCameraId(0)
                 captureActivity = MyCaptureActivity::class.java
             }
             barcodeLauncher.launch(options)

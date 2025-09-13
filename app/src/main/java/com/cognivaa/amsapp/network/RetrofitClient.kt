@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
-    private const val BASE_URL = "https://3d54dc2d3efa.ngrok-free.app/" // For localhost on Android Emulator
+    private const val BASE_URL = "http://91.98.29.135:8080/" // For localhost on Android Emulator 91.98.29.135:8080
 
     private val logging = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
